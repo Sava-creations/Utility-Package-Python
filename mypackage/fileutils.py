@@ -11,7 +11,7 @@ def write_file(file_name, content):
 
 def append_to_file(file_name, content):
     """Append content to a file."""
-    with open(file_path, 'a') as file:
+    with open(file_name, 'a') as file:
         file.write(content)
     return f"Content appended to '{file_name}' successfully."
 

@@ -50,12 +50,14 @@ print(string)
 
 #fileutils module
 
-file=mypackage.write_file("hello.txt", "hello world")
-print(file) 
-
+mypackage.write_file("hello.txt", "Happy New Year ")
 file=mypackage.read_file("hello.txt")
 print(file)                             
 
-file=mypackage.append_to_file("hello.txt", "hello world")
+mypackage.append_to_file("hello.txt", "2025")
+file=mypackage.read_file("hello.txt")
 print(file)
+
+
+
 
