@@ -1,4 +1,4 @@
-import mypackage
+import mypackage                                                                            # Import entire module
 
 #mathutils module
 sum=mypackage.add(1,2)
